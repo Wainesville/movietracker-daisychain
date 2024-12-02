@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const API_KEY = '8feb4db25b7185d740785fc6b6f0e850';
 const BASE_URL = 'https://api.themoviedb.org/3';
-const API_SERVER_URL = 'http://localhost:5000/api'; // Your backend URL
+const API_SERVER_URL = 'https://movietracker-daisychain.onrender.com/api'; // Your backend URL
 
 // Helper function to deduplicate results based on ID
 const deduplicateResults = (results) => {
